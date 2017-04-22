@@ -1,0 +1,72 @@
+{
+	"id": "30438e6d-9b4c-c8f8-be8f-4db57a325daa",
+	"name": "API_AspNetCore",
+	"description": "",
+	"order": [
+		"ec4fb1a6-6c49-a6ae-84da-268f99f1d335",
+		"0ff91e25-0064-0e2a-1cc9-ec3fead326ea"
+	],
+	"folders": [],
+	"timestamp": 1492826002446,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0ff91e25-0064-0e2a-1cc9-ec3fead326ea",
+			"headers": "Authorization: Bearer CfDJ8J7yTATVi9xPs-ko8ljzmva3gL5yZPZteLZm2QZvrYQ_BCZe_0vof4M4nvB3eMUWejLJ2FEDiD3RW0hA4iBIu0WKOVfHupPee_JhpbdSADE5I0ZzfZQK358fCWdHUdzDTNDB-LutfE5MhXPrUYWvxCD77efXMCpZ7SpdlKJfm34yFMwswK58YcqZnrsmf0GleDIwFjR8iQI6PyGA6boSiprcIWZfXHYLSyv1ufLmS_Iw85gtxeYN30nMzC7fHzYiL_YBI0TQeXddTD3-SiqbIvDiPncJgXpECEuS-xLQMObYqEByakuDgqKC6pAD_vgh0LgimI8HXwCV6lw25r1I8fozd7Z89GwqW-BNAp3TPh2QrP3nA2KTgC8dSk5JjL5AmUxg-Wfg5Pg24eD3HT4GkkmzUO8l97ijtXESrJmxY4C_Ez0fkLCENfiWen3a908bJD96XLzhk-7V25F9l-Lw3Sc\n",
+			"url": "http://localhost:5000/api/exemploapi",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492826126505,
+			"name": "API",
+			"description": "",
+			"collectionId": "30438e6d-9b4c-c8f8-be8f-4db57a325daa",
+			"responses": []
+		},
+		{
+			"id": "ec4fb1a6-6c49-a6ae-84da-268f99f1d335",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:5000/connect/token",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "30438e6d-9b4c-c8f8-be8f-4db57a325daa",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "alice@wonderland.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "P@ssw0rd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1492826020472,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
